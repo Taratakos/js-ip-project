@@ -1,3 +1,42 @@
+/**
+ * Цикли
+
+for (let i = 0; i < 10; i++) {
+  if (i === 6) {
+    // break
+    continue;
+  }
+  console.log(i);
+}
+
+for (let i = 0; i < 3; i++) {
+  console.log(i);
+  for (let j = 0; j < 3; j++) {
+    console.log(j);
+  }
+}
+
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+
+let result = '';
+const lengthA = 7;
+
+for (let i = 1; i < lengthA; i++) {
+  for (let j = 0; j < i; j++) {
+    result += '*'
+  }
+
+  result += '\n';
+}
+
+console.log(result);
+*/
+
 /* Завдання на урок 2:
 
 1) Автоматизувати запитання користувачеві про фільми за допомогою циклу
